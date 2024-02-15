@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 65px;
+}
+
+.discover-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+/* Discover-box-left */
+
+.discover-box-left {
+    margin-top: 87px;
+    padding-right: 83px;
+}
+
+.discover-box-left h1 {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 80px;
+}
+
+.discover-box-left p {
+    font-size: 26px;
+    line-height: 35px;
+    margin-top: 42px;
+}
+
+.discover-box-left button {
+    font-size: 18px;
+    padding: 18px 34px;
+    color: #FFFFFF;
+    background-color: #252525;
+    border-radius: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+/* Discover-box-right */
+
+.discover-box-right {
+    margin-top: 152px;
+}
+
+/* Nature-img-box */
+.nature-img-box {
+    margin-top: 83px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.nature-img-box h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #2525253F;
+    margin-bottom: 18px;
+}
